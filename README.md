@@ -50,4 +50,6 @@ python3 HikCamVuln.py -h
 * 0.1
     * Initial Release
 
+## Disclaimer
+
 This script has been developed solely for educational purposes, aiming to raise awareness about potential security vulnerabilities. It is important to note that unauthorized usage or any form of malicious intent is strongly discouraged. Users are advised to exercise responsible and ethical behavior when utilizing this script or any security-related tool. The primary intention behind creating this script is to promote understanding and knowledge in the field of cybersecurity, encouraging users to prioritize the protection of their systems and respect the boundaries of lawful and ethical practices.
