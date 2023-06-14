@@ -22,12 +22,15 @@ A straightforward script that scans Hikvision IP cameras for a widely recognized
 * ipscraper.sh - an attempt to scrape more the 100 results from censys.io. However, it is important to note that successful functionality or desired outcomes are not guaranteed as it needs a premium API-KEY from censys.
 
 ### Requirements
-* for the hikvisioncams.py script you MUST have a valid API-KEY and API-SECRET for censys and also censys python library
-
+* In order to ensure the functionality of the hikvisioncams.py script, it is essential to possess a valid API-KEY and API-SECRET for censys, as well as the censys Python library.
 The library can be installed using `pip`.
 
 ```sh
 pip install censys
+```
+* To ensure the ipscraper.sh script operates correctly, it is necessary to edit the script and provide the missing parameter (any value within the quotation marks). Modify the script by filling in the following information:
+```
+-H 'Cookie: ""; ajs_anonymous_id=""; ajs_user_id=""; ajs_group_id=""; auth_v1=""; CENSYS-INTERNAL-JWT="";
 ```
 ### Installing
 
