@@ -33,10 +33,9 @@ pip install censys
 -H 'Cookie: ""; ajs_anonymous_id=""; ajs_user_id=""; ajs_group_id=""; auth_v1=""; CENSYS-INTERNAL-JWT="";
 ```
 ### Installing
-
-* How/where to download your program
-* Any modifications needed to be made to files/folders
-
+```
+git clone https://github.com/Kaizen-san/Side-quest-scripts.git
+```
 ### Executing program
 
 * To ensure proper execution of the script, please run it initially with the "-h" option to access the help menu. This will provide you with instructions and guidance on how to use the script effectively.
