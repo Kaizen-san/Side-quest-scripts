@@ -17,7 +17,7 @@ A straightforward script that scans Hikvision IP cameras for a widely recognized
 
 ## Description
 
-* HikCamVuln.py - the Hikvision IP cam vulnerability verifier script
+* hicvv.py - the Hikvision IP cam vulnerability verifier script
 * hikvisioncams.py - the hikvision ip cam finder on Censys.io (API-KEY Required) 
 * ipscraper.sh - an attempt to scrape more the 100 results from censys.io. However, it is important to note that successful functionality or desired outcomes are not guaranteed as it needs a premium API-KEY from censys.
 
@@ -41,7 +41,7 @@ git clone https://github.com/Kaizen-san/Side-quest-scripts.git
 
 * To ensure proper execution of the script, please run it initially with the "-h" option to access the help menu. This will provide you with instructions and guidance on how to use the script effectively.
 ```
-python3 HikCamVuln.py -h
+python3 hicvv.py -h
 ```
 
 
